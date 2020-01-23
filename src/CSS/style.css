@@ -1,0 +1,63 @@
+.smallButton {
+  border: 1px solid black;
+  color: #fff;
+  background-color: #000;
+  outline-color: greenyellow;
+  border-radius: 5%;
+}
+
+.bigButton {
+  border: 1px solid #000;
+  margin: 1rem;
+  background-color: #fff;
+  color: #000;
+  border-radius: 0.4rem;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.7rem;
+}
+
+.bigButton:focus {
+  outline-color: greenyellow;
+}
+
+.header {
+  color: #000000;
+  background-color: transparent;
+  font-family: "Pacifico", cursive;
+  text-decoration: none;
+  font-size: 5vh;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  display: flex;
+  padding-top: 10%;
+  justify-content: center;
+  font-size: 1.45rem;
+  color: #000;
+  /* font-weight: 700; */
+  /* color: yellowgreen; */
+  /* border-bottom: 0.5px solid greenyellow; */
+}
+
+.submit-wrapper {
+  /* display: flex;
+  justify-content: center; */
+  /* border: 1px solid #000; */
+  padding-left: 35%;
+  padding-top: 2.5%;
+}
+
+/* .input-field {
+  /* padding: 1% 0% 0% 1%; 
+  border: 1px solid #000;
+} */
+
+.input-getProgress {
+  border: 1px solid #000;
+}

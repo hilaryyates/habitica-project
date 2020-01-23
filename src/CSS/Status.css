@@ -1,0 +1,151 @@
+.circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border-color: black;
+  border-style: solid;
+}
+
+.date {
+  color: black;
+  text-align: center;
+  padding-bottom: 15%;
+}
+
+.calendar-element {
+  padding: 2.5%;
+}
+
+.calendar {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-self: flex-start;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.task {
+  color: yellowgreen;
+  padding: none;
+}
+
+.day {
+  color: #000;
+  padding-right: 0.5%;
+}
+
+.messages-header {
+  color: #000;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 700;
+  /* padding-bottom: 3%; */
+}
+
+.messages-body {
+  /* border: 1px solid #000; */
+  display: flex;
+  justify-content: center;
+}
+.all-posts {
+  /* border: 1px solid #000; */
+  width: 60vh;
+  height: 40vh;
+  padding-top: 4%;
+}
+
+.messages {
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+  align-items: center;
+  /* padding: 5%; */
+  padding-bottom: 2%;
+}
+
+.status-btn {
+  border: none;
+  background: #fff;
+  font-size: 0.5rem;
+  /* display: inline-block; */
+}
+
+.bigger-status-btn {
+  border: none;
+  background: #fff;
+  font-size: 0.7rem;
+  /* display: inline-block; */
+}
+
+.isFrom {
+  padding-right: 2%;
+  color: #000;
+  font-size: 1.5rem;
+}
+
+.search-icon {
+  color: #000;
+  position: absolute;
+  margin-top: 2px;
+  margin-left: 3px;
+  width: 12px;
+  height: 12px;
+  border: solid 1px currentColor;
+  border-radius: 100%;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.search-icon::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 5px;
+  height: 6px;
+  width: 1px;
+  background-color: currentColor;
+}
+
+.inputField {
+  padding-left: 19px;
+}
+
+.gif {
+  height: 20vh;
+  width: 20vh;
+  border-radius: 2%;
+}
+
+.post {
+  color: #000;
+}
+
+.send-to-friend {
+  display: flex;
+  /* flex-direction: column; */
+  padding-left: 25%;
+  padding-top: 18%;
+  /* padding-top: -10%; */
+}
+
+/* .green-symbol {
+  background-color: yellowgreen;
+  height: 0.2vh;
+  width: 5vh;
+} */
+
+.progress-date {
+  color: black;
+  text-align: center;
+  padding-bottom: 15%;
+}
+
+.progress-circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border-color: greenyellow;
+  border-style: solid;
+}
