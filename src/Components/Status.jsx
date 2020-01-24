@@ -63,8 +63,10 @@ class UnconnectedStatus extends Component {
         <div>
           <div className="calendar">{calendar.map(daysThisMonthToElement)}</div>
           <span>
-            <div>{calendar.map(tasksThisMonthToList)}</div>
-            <div className="messages-header">Messages</div>
+            <div className="list-of-habits">
+              {calendar.map(tasksThisMonthToList)}
+            </div>
+            {/* <div className="messages-header">Messages</div> */}
             <div className="messages-body">
               <RenderMessages />
             </div>

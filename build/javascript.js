@@ -252,7 +252,7 @@ exports.push([module.i, ".signupLoginBG {\n  /* width: 30vh;\n  height: 50vh;\n 
 
 exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, ".circle {\r\n  width: 32px;\r\n  height: 32px;\r\n  border-radius: 50%;\r\n  border-color: black;\r\n  border-style: solid;\r\n}\r\n\r\n.date {\r\n  color: black;\r\n  text-align: center;\r\n  padding-bottom: 15%;\r\n}\r\n\r\n.calendar-element {\r\n  padding: 2.5%;\r\n}\r\n\r\n.calendar {\r\n  display: flex;\r\n  justify-content: flex-start;\r\n  flex-wrap: wrap;\r\n  align-self: flex-start;\r\n  padding-left: 25%;\r\n  padding-right: 25%;\r\n}\r\n\r\n.task {\r\n  color: yellowgreen;\r\n  padding: none;\r\n}\r\n\r\n.day {\r\n  color: #000;\r\n  padding-right: 0.5%;\r\n}\r\n\r\n.messages-header {\r\n  color: #000;\r\n  display: flex;\r\n  justify-content: center;\r\n  font-size: 2rem;\r\n  font-weight: 700;\r\n  /* padding-bottom: 3%; */\r\n}\r\n\r\n.messages-body {\r\n  /* border: 1px solid #000; */\r\n  display: flex;\r\n  justify-content: center;\r\n}\r\n.all-posts {\r\n  /* border: 1px solid #000; */\r\n  width: 60vh;\r\n  height: 40vh;\r\n  padding-top: 4%;\r\n}\r\n\r\n.messages {\r\n  display: flex;\r\n  justify-content: center;\r\n  /* flex-direction: column; */\r\n  align-items: center;\r\n  /* padding: 5%; */\r\n  padding-bottom: 2%;\r\n}\r\n\r\n.status-btn {\r\n  border: none;\r\n  background: #fff;\r\n  font-size: 0.5rem;\r\n  /* display: inline-block; */\r\n}\r\n\r\n.bigger-status-btn {\r\n  border: none;\r\n  background: #fff;\r\n  font-size: 0.7rem;\r\n  /* display: inline-block; */\r\n}\r\n\r\n.isFrom {\r\n  padding-right: 2%;\r\n  color: #000;\r\n  font-size: 1.5rem;\r\n}\r\n\r\n.search-icon {\r\n  color: #000;\r\n  position: absolute;\r\n  margin-top: 2px;\r\n  margin-left: 3px;\r\n  width: 12px;\r\n  height: 12px;\r\n  border: solid 1px currentColor;\r\n  border-radius: 100%;\r\n  -webkit-transform: rotate(-45deg);\r\n  transform: rotate(-45deg);\r\n}\r\n\r\n.search-icon::before {\r\n  content: \"\";\r\n  position: absolute;\r\n  top: 12px;\r\n  left: 5px;\r\n  height: 6px;\r\n  width: 1px;\r\n  background-color: currentColor;\r\n}\r\n\r\n.inputField {\r\n  padding-left: 19px;\r\n}\r\n\r\n.gif {\r\n  height: 20vh;\r\n  width: 20vh;\r\n  border-radius: 2%;\r\n}\r\n\r\n.post {\r\n  color: #000;\r\n}\r\n\r\n.send-to-friend {\r\n  display: flex;\r\n  /* flex-direction: column; */\r\n  padding-left: 25%;\r\n  padding-top: 18%;\r\n  /* padding-top: -10%; */\r\n}\r\n\r\n/* .green-symbol {\r\n  background-color: yellowgreen;\r\n  height: 0.2vh;\r\n  width: 5vh;\r\n} */\r\n\r\n.progress-date {\r\n  color: black;\r\n  text-align: center;\r\n  padding-bottom: 15%;\r\n}\r\n\r\n.progress-circle {\r\n  width: 32px;\r\n  height: 32px;\r\n  border-radius: 50%;\r\n  border-color: greenyellow;\r\n  border-style: solid;\r\n}\r\n", ""]);
+exports.push([module.i, ".circle {\r\n  width: 32px;\r\n  height: 32px;\r\n  border-radius: 50%;\r\n  border-color: black;\r\n  border-style: solid;\r\n}\r\n\r\n.date {\r\n  color: black;\r\n  text-align: center;\r\n  padding-bottom: 15%;\r\n}\r\n\r\n.calendar-element {\r\n  padding: 2.5%;\r\n}\r\n\r\n.calendar {\r\n  display: flex;\r\n  justify-content: flex-start;\r\n  flex-wrap: wrap;\r\n  align-self: flex-start;\r\n  padding-left: 25%;\r\n  padding-right: 25%;\r\n}\r\n\r\n.task {\r\n  color: yellowgreen;\r\n  padding: none;\r\n}\r\n\r\n.day {\r\n  color: #000;\r\n  padding-right: 0.5%;\r\n}\r\n\r\n.messages-header {\r\n  color: #000;\r\n  display: flex;\r\n  justify-content: center;\r\n  font-size: 2rem;\r\n  font-weight: 700;\r\n  /* padding-bottom: 3%; */\r\n}\r\n\r\n.messages-body {\r\n  /* border: 1px solid #000; */\r\n  display: flex;\r\n  justify-content: center;\r\n  padding-right: 80%;\r\n}\r\n\r\n.messages-header {\r\n  color: #000;\r\n  padding-top: 15%;\r\n  /* font-weight: 800;\r\n   */\r\n  font-style: italic;\r\n  font-size: 1.8rem;\r\n\r\n  /* border: 1px solid #000; */\r\n}\r\n\r\n.messages {\r\n  /* display: flex; */\r\n  /* justify-content: center; */\r\n  /* flex-direction: column; */\r\n  /* align-items: center; */\r\n  padding: 1% 0% 0% 45.8%;\r\n  /* padding-bottom: 2%; */\r\n  /* border-bottom: 1px solid rgba(133, 127, 127, 0.548); */\r\n  /* border: 1px solid rgba(133, 127, 127, 0.548); */\r\n}\r\n\r\n.posts-header {\r\n  color: #000;\r\n  padding: 3% 0% 1% 45%;\r\n  font-size: 1.5rem;\r\n  color: yellowgreen;\r\n}\r\n\r\n.post-content {\r\n  color: yellowgreen;\r\n}\r\n\r\n.status-btn {\r\n  border: none;\r\n  background: #fff;\r\n  font-size: 0.5rem;\r\n  /* display: inline-block; */\r\n}\r\n\r\n.bigger-status-btn {\r\n  border: none;\r\n  background: #fff;\r\n  font-size: 0.7rem;\r\n  /* display: inline-block; */\r\n}\r\n\r\n.isFrom {\r\n  padding-right: 2%;\r\n  color: #000;\r\n  font-size: 1.5rem;\r\n}\r\n\r\n.search-icon {\r\n  color: #000;\r\n  position: absolute;\r\n  margin-top: 2px;\r\n  margin-left: 3px;\r\n  width: 12px;\r\n  height: 12px;\r\n  border: solid 1px currentColor;\r\n  border-radius: 100%;\r\n  -webkit-transform: rotate(-45deg);\r\n  transform: rotate(-45deg);\r\n}\r\n\r\n.search-icon::before {\r\n  content: \"\";\r\n  position: absolute;\r\n  top: 12px;\r\n  left: 5px;\r\n  height: 6px;\r\n  width: 1px;\r\n  background-color: currentColor;\r\n}\r\n\r\n.inputField {\r\n  padding-left: 19px;\r\n}\r\n\r\n.gif {\r\n  height: 20vh;\r\n  width: 20vh;\r\n  border-radius: 2%;\r\n}\r\n\r\n.post {\r\n  color: #000;\r\n}\r\n\r\n.send-to-friend {\r\n  display: flex;\r\n  /* flex-direction: column; */\r\n  padding-left: 25%;\r\n  padding-top: 2%;\r\n  /* padding-top: -10%; */\r\n}\r\n\r\n/* .green-symbol {\r\n  background-color: yellowgreen;\r\n  height: 0.2vh;\r\n  width: 5vh;\r\n} */\r\n\r\n.progress-date {\r\n  color: black;\r\n  text-align: center;\r\n  padding-bottom: 15%;\r\n}\r\n\r\n.progress-circle {\r\n  width: 32px;\r\n  height: 32px;\r\n  border-radius: 50%;\r\n  border-color: greenyellow;\r\n  border-style: solid;\r\n}\r\n\r\n.actions-header {\r\n  color: yellowgreen;\r\n  /* border: 1px solid #000; */\r\n  padding: 10% 0% 0% 46%;\r\n  /* font-size: 1.5rem; */\r\n}\r\n\r\n.search-friend {\r\n  padding-right: 0%;\r\n}\r\n\r\n.list-of-habits {\r\n  padding-left: 10%;\r\n  padding-right: 0%;\r\n  border: 0.5px solid yellowgreen;\r\n}\r\n", ""]);
 
 
 
@@ -28929,87 +28929,34 @@ let Avatar = Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(mapStat
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _RenderMessages_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./RenderMessages.jsx */ "./src/Components/RenderMessages.jsx");
-/* harmony import */ var _Features_TaskFormatting_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Features/TaskFormatting.js */ "./src/Features/TaskFormatting.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _RenderMessages_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./RenderMessages.jsx */ "./src/Components/RenderMessages.jsx");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 
 
 
 
-
-class UnconnectedFriendStatus extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
-  super(props) {
-    constructor(props);
-    this.state = {
-      friendDidDailies: undefined,
-      friendDidHabits: undefined
-    };
+class UnconnectedFriendStatus extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor(props) {
+    super(props);
   }
 
   render() {
-    let progress = this.props.friendsProgress;
-    console.log("Progress in FriendStatus", progress);
-
-    if (progress !== undefined) {
-      let progressThisMonth = Object(_Features_TaskFormatting_js__WEBPACK_IMPORTED_MODULE_3__["getDaysTasksWereCompleted"])(progress.habits, progress.dailies);
-      let calendar = Object(_Features_TaskFormatting_js__WEBPACK_IMPORTED_MODULE_3__["cleanCalendar"])(progressThisMonth);
-
-      let daysThisMonthToElement = calendar => {
-        if (calendar.progressDay) {
-          return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-            className: "calendar-element"
-          }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-            className: "date",
-            className: "progress-date"
-          }, calendar.dayOfTheMonth), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-            className: "circle",
-            className: "progress-circle"
-          }));
-        }
-
-        return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-          className: "calendar-element"
-        }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-          className: "date"
-        }, calendar.dayOfTheMonth), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-          className: "circle"
-        }));
-      };
-
-      let tasksThisMonthToList = calendar => {
-        return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
-          className: "day"
-        }, calendar.dayOfTheMonth, "."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
-          className: "task"
-        }, calendar.task), calendar.dayOfTheMonth);
-      };
-
-      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "tasksBG"
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "calendar"
-      }, calendar.map(daysThisMonthToElement)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, calendar.map(tasksThisMonthToList)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "messages-header"
-      }, "Messages"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "messages-body"
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_RenderMessages_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], null))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_RenderMessages_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], null));
-    }
-
-    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, "hello world");
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "messages-header"
+    }, "Give ", this.props.friend.toUpperCase(), " some encouragement!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_RenderMessages_jsx__WEBPACK_IMPORTED_MODULE_1__["default"], null));
   }
 
 }
 
 let mapStateToProps = state => {
   return {
-    friendsProgress: state.friendsProgress,
-    retrievedProgress: state.retrievedProgress
+    friend: state.fetchedUser
   };
 };
 
-let FriendStatus = Object(react_redux__WEBPACK_IMPORTED_MODULE_0__["connect"])(mapStateToProps)(UnconnectedFriendStatus);
+let FriendStatus = Object(react_redux__WEBPACK_IMPORTED_MODULE_2__["connect"])(mapStateToProps)(UnconnectedFriendStatus);
 /* harmony default export */ __webpack_exports__["default"] = (FriendStatus);
 
 /***/ }),
@@ -29372,15 +29319,18 @@ class UnconnectedGetStatus extends react__WEBPACK_IMPORTED_MODULE_0__["Component
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "progressBG"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header_jsx__WEBPACK_IMPORTED_MODULE_6__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_FriendStatus_jsx__WEBPACK_IMPORTED_MODULE_5__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "actions-header"
+      }, "Comment"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "send-to-friend"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PostMessage_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PostGif_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
         onSubmit: this.handleSubmit
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
         type: "text",
         onChange: this.handleSearch,
-        defaultValue: "Encourage a friend!",
+        defaultValue: "Find a friend!",
         ref: input => this.inputField = input,
-        onClick: () => this.inputField.value = ""
+        onClick: () => this.inputField.value = "",
+        className: "search-friend"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
         type: "submit",
         value: "Search",
@@ -30123,7 +30073,9 @@ class UnconnectedRenderMessages extends react__WEBPACK_IMPORTED_MODULE_0__["Comp
           className: "isFrom"
         }, event.isFrom), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
           className: "post"
-        }, "\"", event.content, "\"", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+          className: "post-content"
+        }, event.content), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
           className: "status-btn",
           onClick: () => this.handleDeleteMessage(event.time, event.isFrom, event.isFor)
         }, "delete")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -30132,7 +30084,9 @@ class UnconnectedRenderMessages extends react__WEBPACK_IMPORTED_MODULE_0__["Comp
       }
     };
 
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_GetMessages_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "posts-header"
+    }, "Messages"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_GetMessages_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "all-posts"
     }, this.props.messages.map(messageToElement)));
   }
@@ -30382,9 +30336,9 @@ class UnconnectedStatus extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] 
     if (this.props.retrievedProgress) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "calendar"
-      }, calendar.map(daysThisMonthToElement)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, calendar.map(tasksThisMonthToList)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "messages-header"
-      }, "Messages"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, calendar.map(daysThisMonthToElement)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "list-of-habits"
+      }, calendar.map(tasksThisMonthToList)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "messages-body"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_RenderMessages_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], null))));
     }

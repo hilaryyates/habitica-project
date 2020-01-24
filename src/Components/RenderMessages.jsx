@@ -51,7 +51,7 @@ class UnconnectedRenderMessages extends Component {
           <div className="messages">
             <span className="isFrom">{event.isFrom}</span>
             <span className="post">
-              "{event.content}"
+              <span className="post-content">{event.content}</span>
               <button
                 className="status-btn"
                 onClick={() =>
@@ -72,6 +72,7 @@ class UnconnectedRenderMessages extends Component {
     };
     return (
       <div>
+        <div className="posts-header">Messages</div>
         <GetMessages />
         <div className="all-posts">
           {this.props.messages.map(messageToElement)}

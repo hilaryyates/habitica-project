@@ -95,6 +95,7 @@ class UnconnectedGetStatus extends Component {
       <div className="progressBG">
         <Header />
         <FriendStatus />
+        <div className="actions-header">Comment</div>
         <div className="send-to-friend">
           <PostMessage />
           <PostGif />
@@ -102,9 +103,10 @@ class UnconnectedGetStatus extends Component {
             <input
               type="text"
               onChange={this.handleSearch}
-              defaultValue="Encourage a friend!"
+              defaultValue="Find a friend!"
               ref={input => (this.inputField = input)}
               onClick={() => (this.inputField.value = "")}
+              className="search-friend"
             />
             <input type="submit" value="Search" className="bigger-status-btn" />
           </form>
